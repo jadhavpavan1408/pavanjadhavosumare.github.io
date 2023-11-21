@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Header styling */
+.navbar-brand font {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.navbar {
+  background-color: white;
+}
+
+.navbar-nav a {
+  text-decoration: none;
+  color: #141824;
+  font-weight: bold;
+}
+.navbar-nav a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #23c0ad;
+  color: #23c0ad;
+}
+@media screen and (max-width: 991px) {
+  .navbar #bookbtn {
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 0px;
+  }
+}
+/*========================== header styling edn ======================*/
+
+/* =========================== section styling start =================== */
+#home {
+  height: 100%;
+  background: url(../images/background1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+}
+/*ticket styling  */
+#about label {
+  color: white;
+}
+
+/*Travelling gallery*/
+#gallery img {
+  width: 100%;
+  transition: 1s;
+  position: relative;
+}
+#gallery img:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  box-shadow: 0px 0px 15px rgb(255, 149, 0);
+  border-radius: 25px;
+}
+#gallery #hoverboxes {
+  position: relative;
+}
+#gallery h3 {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  color: white;
+  display: block;
+  text-shadow: 2px 2px black;
+}
+/*============ banner2 */
+#banner2 {
+  background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  height: 80%;
+}
+#banner2 .banner-heighlight {
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+/*=========== review ============*/
+#review .user-review {
+  box-shadow: 0px 0px 5px black;
+  padding-bottom: 20%;
+  position: relative;
+}
+#review p {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#review .user-review img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  left: 35%;
+  bottom: -15%;
+}
+@media screen and (max-width: 991px) {
+  #review .user-review img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    left: 45%;
+    bottom: -15%;
+  }
+}
+/*=================== Footer ====================*/
+#contact #contact-icons a:hover {
+  transform: rotate(360deg);
+  transition: 2s;
+  background-color: orange;
+}
+#contact #contact-icons a {
+  transition: 1s;
+}
+#destination,
+#review,
+#gallery {
+  background-color: #f7f7f7;
+}
