@@ -98,6 +98,13 @@
   padding-bottom: 20%;
   position: relative;
 }
+#review #reviewcard:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+#review #reviewcard {
+  transition: 2s;
+}
 #review p {
   padding-top: 20px;
   padding-left: 10px;
